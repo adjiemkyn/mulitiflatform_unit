@@ -30,7 +30,7 @@ class HomePage extends StatelessWidget {
         child: Column(
           children: <Widget>[
             Image.network(
-              'hps://images.pexels.com/photos/91227/pexels-photo-91227.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+              'https://images.pexels.com/photos/91227/pexels-photo-91227.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
               height: 500,
             ),
             const Row(
