@@ -30,8 +30,29 @@ class HomePage extends StatelessWidget {
         child: Column(
           children: <Widget>[
             Image.network(
-              'https://images.pexels.com/photos/1681010/pexels-photo-1681010.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+              'https://images.pexels.com/photos/91227/pexels-photo-91227.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
               height: 500,
+            ),
+            const Row(
+              mainAxisAlignment: MainAxisAlignment.end,
+              children: <Widget>[
+                Icon(
+                  Icons.copy,
+                  color: Colors.black,
+                  size: 24.0,
+                  semanticLabel: 'Text to announce in accessibility modes',
+                ),
+                Icon(
+                  Icons.share,
+                  color: Colors.black,
+                  size: 30.0,
+                ),
+                Icon(
+                  Icons.report,
+                  color: Colors.black,
+                  size: 36.0,
+                ),
+              ],
             ),
             const ListTile(
               title: Text("Gede Chandra Adjie Mikeyana"),
@@ -71,9 +92,14 @@ class HomePage extends StatelessWidget {
               subtitle: Text("Profesi"),
             ),
             const ListTile(
+              title: Text(
+                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam eget vestibulum orci. Quisque ut nisi id est gravida mollis. Sed dui massa, iaculis vitae erat vitae, eleifend condimentum lorem. Aenean posuere semper felis sit amet commodo. Suspendisse dictum finibus arcu, eget dapibus dui sodales ac. "),
+              subtitle: Text("Deskripsi"),
+            ),
+            const ListTile(
               title: Text("Indonesia"),
               subtitle: Text("Kebangsaan"),
-            )
+            ),
           ],
         ),
       ),
