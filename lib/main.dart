@@ -26,7 +26,7 @@ class HomePage extends StatelessWidget {
         ),
         body: Column(
             mainAxisAlignment: MainAxisAlignment.center,
-            crossAxisAlignment: CrossAxisAlignment.stretch,
+            crossAxisAlignment: CrossAxisAlignment.baseline,
             children: <Widget>[
               Container(color: Colors.red, height: 100, width: 100),
               Container(color: Colors.green, height: 50, width: 50),
